@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ArduinoBT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_paired_devices">Paired</string>
+	<string name="title_other_devices">Other</string>
+	<string name="button_scan">Scan</string>
+	<string name="button_send">Send</string>
+	<string name="red">red</string>
+	<string name="green">green</string>
+	<string name="blue">blue</string>
+	<string name="play">Play</string>
+	<string name="generic_toggle_1">Toggle 1</string>
+	<string name="generic_toggle_2">Toggle 2</string>
+	<string name="generic_toggle_3">Toggle 3</string>
+	<string name="generic_toggle_4">Toggle 4</string>
+	<string name="button_up">Up</string>
+	<string name="button_down">Down</string>
+	<string name="button_left">Left</string>
+	<string name="button_right">Right</string>
+	<string name="up_control">Forward</string>
+	<string name="left_control">Left</string>
+	<string name="right_control">Right</string>
+	<string name="connect">Connect</string>
+	<string name="use_steering">Use Steering</string>
+	<string name="use_buttons">Use Buttons</string>
+	
+</resources>

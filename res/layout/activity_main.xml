@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<!-- Regarding the warning about nested weights:
+		 the nesting is only two layers deep and there are not
+		 that many views so I don't think this will be an issue  -->
+	
+	<!-- Top Rown -->
+    <LinearLayout
+        android:id="@+id/top_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:orientation="horizontal" >
+        
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight=".25" />
+		
+		<Button
+	        android:id="@+id/up_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:text="@string/up_control"
+	        android:layout_weight=".50" /> 
+
+
+		
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight=".25" />
+		
+    </LinearLayout>
+
+    <!-- Bottom Row -->
+    <LinearLayout
+        android:id="@+id/bottom_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_weight=".5">
+		
+		<Button
+		    android:id="@+id/left_button"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:text="@string/left_control" 
+		    android:layout_weight=".5" /> 
+
+		<Button
+	        android:id="@+id/right_button"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:text="@string/right_control"
+	        android:layout_weight=".5"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

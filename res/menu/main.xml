@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.dalbers.btligth.MainActivity" >
+    <item android:id="@+id/connect" android:title="@string/connect"></item>
+    <item android:id="@+id/steering" android:title="@string/use_steering"></item>
+    <item android:id="@+id/buttons" android:title="@string/use_buttons"></item>
+
+</menu>
